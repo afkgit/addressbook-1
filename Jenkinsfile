@@ -27,7 +27,7 @@ pipeline{
         stage("Package"){
             steps{
                 script{
-                    echo "Packaging the code $(NEW_VERSION)"
+                    echo "Packaging the code ${NEW_VERSION}"
                 }
             }
         }
